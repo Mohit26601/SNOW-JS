@@ -79,3 +79,12 @@
 
 // `
 // console.log(str);
+
+
+let Fname = "rahul shinde";
+
+let res = Fname.toUpperCase()
+
+console.log(res);
+
+
