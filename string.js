@@ -70,12 +70,12 @@
 // console.log(typeof str);
 
 
-let a = 500;
-let b = 100;
+// let a = 500;
+// let b = 100;
 
-let str = `This is string Literals ${a * b}
+// let str = `This is string Literals ${a * b}
    
-     value of a is ${a} and value of b ${b}
+//      value of a is ${a} and value of b ${b}
 
-`
-console.log(str);
+// `
+// console.log(str);
