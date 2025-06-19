@@ -5,19 +5,19 @@
 // let car2 = "volvo";
 // let car3 = "audi";
 
-// // ........1typeof array
+// ........1typeof array..............
 // let cars = ["BMW", "volvo", "audi"]
 // console.log(cars);
 
 
-// // ........2typeof array
+// // ........2typeof array..............
 // let myArr = new Array("BMW", "volvo", "audi");
 // console.log(myArr);
 
 
-// // ........3typeof array
+// // ........3typeof array..............
 // let emptyArray = [];
-// // emptyArray = 1;
+// emptyArray = 1;
 
 // emptyArray[0] = "abc";
 // emptyArray[1] = "def";
@@ -30,7 +30,7 @@
 // let arr = ["one", "two", "three", "four", "five", "six"];
 // console.log(arr.length);
 
-// ..........array push
+// ..........array push..............
 
 // let arr = ["one", "two", "three", "four", "five", "six"];
 // let res = arr.push("seven");
@@ -63,12 +63,13 @@
 // arr.pop();
 
 
-// // .........To STRING
+// // .............To STRING..................
+
 // let arr = ["one", "two", "three", "four", "five", "six"];
 // console.log(arr.toString())
 
 
-// // ...........concat
+// // ...........concat..................
 
 // let arr1 = ["one", "two", "three", "four", "five", "six"];
 // let arr2 = ["seven", "eight", "nine", "ten", "eleven", "twelve"];
@@ -79,7 +80,7 @@
 
 
 
-// // ..............unshift
+// // ..............unshift..................
 
 // let arr1 = ["one", "two", "three", "four", "five", "six"];
 
@@ -92,19 +93,36 @@
 // console.log(arr2);
 
 
-// // .............slilce
+// // .............slilce..................
 
 // let arr = ["one", "two", "three", "four", "five", "six"];
 
 // console.log( arr.slice('1', '3'));
 
 
-// ..............splice
+// ..............splice..................
 
-let arr1 = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
-console.log(arr1.splice('4', '4'));
+// let arr1 = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
+// console.log(arr1.splice('4', '4'));
 
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fruit = fruits[3];
+
+
+let arr1 = ["one", "two", "three", "four", "five", "six"];
+let arr2 = ["seven", "eight", "nine", "ten", "eleven", "twelve"];
+let arr3 = ["13", "14", "15", "16"];
+
+console.log(arr1);
+console.log(arr2);
+
+let res = arr1.concat(arr2, arr3);
+console.log(res);
+
+
+let arr5 = ["one",1,null,undefined,true]
+console.log(arr5);
 
 
 

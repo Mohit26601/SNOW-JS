@@ -7,6 +7,6 @@
 // console.log(lastName);
 
 
-let a = 500;
-b = 400;
- console.log(a);
+// let a = 500;
+// b = 400;
+//  console.log(a); 
