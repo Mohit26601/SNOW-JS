@@ -125,13 +125,13 @@ const obj = {
             pincode: 401133,
             phoneno: 7262000720,
             className: 12,
-            classFlore: "2nd",
+            classFloor: "2nd",
             classTeacher: "Patil Bai"
     
 
 
 }
 
-const {address, pincode, classTeacher} = obj
+const {address, pincode, classTeacher,classFloor} = obj
 console.log(address);
 
