@@ -114,15 +114,12 @@ let arr1 = ["one", "two", "three", "four", "five", "six"];
 let arr2 = ["seven", "eight", "nine", "ten", "eleven", "twelve"];
 let arr3 = ["13", "14", "15", "16"];
 
-console.log(arr1);
-console.log(arr2);
-
 let res = arr1.concat(arr2, arr3);
 console.log(res);
 
 
-let arr5 = ["one",1,null,undefined,true]
-console.log(arr5);
+// let arr5 = ["one",1,null,undefined,true]
+// console.log(arr5);
 
 
 
