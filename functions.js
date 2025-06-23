@@ -105,19 +105,19 @@
 // console.log(getValue(200, 300, 400, 500));
 
 
-function infoCode(){
-  let name = "Tushar";
-  let age = 24;
-  let stuObj ={
-    student : "rohan"
-  }
-  let arr = [1,2,3,4,5]
-  console.log(name, age,stuObj,arr);
+// function infoCode(){
+//   let name = "Tushar";
+//   let age = 24;
+//   let stuObj ={
+//     student : "rohan"
+//   }
+//   let arr = [1,2,3,4,5]
+//   console.log(name, age,stuObj,arr);
 
   
-}
+// }
 
-infoCode();
+// infoCode();
 
 
 // // ..... We are accessing the object though function in below code        ........ object values are access by function .......
@@ -139,11 +139,69 @@ infoCode();
 
 
 
-let arr = [10, 20, 30]
-console.log(arr);
+// let arr = [10, 20, 30]
+// console.log(arr);
 
 
-function accessArr(getValue){
-  return getValue[1]
-}
-console.log(accessArr(arr));
+// function accessArr(getValue){
+//   return getValue[1]
+// }
+// console.log(accessArr(arr));
+
+
+// let userOne ={
+//     userName : "pranit",                        // object 
+//     userID : "tcs100",
+//     otherDeatils : function() {
+//       console.log(`The name of user is ${this.userName}and Id of user is ${this.userID}`);
+      
+
+//     }
+
+// }
+// console.log(userOne.otherDeatils());
+
+
+// ................arrow fucntion.................
+
+// const addValue = (a, b) => {
+//   return a * b
+
+// }
+// console.log(addValue(100, 200));
+
+
+
+
+// const addValue = () => console.log("This is single line arroww function");          // This is single arrow fucntion
+// addValue();
+
+
+// const addValue = (a, b) => a * b;          // no need to"return" because of not using {}this.
+// console.log(addValue(12, 34));                      
+
+
+// const addValue = (a, b) => {return a * b};                // same code as above but retun is reqired bcoz of {}
+// console.log(addValue(12, 34));    
+
+
+
+//........IILE........
+
+// function addValue () {
+//   console.log("Normal fucntion");
+
+// }
+// addValue();
+
+
+(function addValue () {
+  console.log("IIFE");
+
+  
+} ) ();
+
+
+(function addValue (a, b) {
+  console.log("IIFE", a + b);
+} ) ( 5, 6);

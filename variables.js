@@ -103,10 +103,10 @@
 // console.log(user);                                  //Pushin an object in array.
 
 
-const car = { type:"Fiat", model:"500", color:"white"}
-car.color = "red";                      // You can change a property:
-car.owner = "John Snow";                // You can add a property:
-console.log(car);
+// const car = { type:"Fiat", model:"500", color:"white"}
+// car.color = "red";                      // You can change a property:
+// car.owner = "John Snow";                // You can add a property:
+// console.log(car);
 
 
 
