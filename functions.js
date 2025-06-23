@@ -173,7 +173,7 @@
 
 
 
-// const addValue = () => console.log("This is single line arroww function");          // This is single arrow fucntion
+// let addValue = () => console.log("This is single line arrow function");          // This is single arrow fucntion
 // addValue();
 
 
@@ -186,22 +186,41 @@
 
 
 
+// setTimeout(() => {
+//   console.log("This message is delayed by 5 seconds");
+// }, 5000);
+
+
+
 //........IILE........
 
-// function addValue () {
-//   console.log("Normal fucntion");
+// function addValue ( a, b) {
+//   console.log("Normal fucntion", a / b);
 
 // }
-// addValue();
+// addValue(12 ,6);
 
 
-(function addValue () {
-  console.log("IIFE");
+// (function addValue () {
+//   console.log("IIFE");
 
   
-} ) ();
+// } ) ();
 
 
-(function addValue (a, b) {
-  console.log("IIFE", a + b);
-} ) ( 5, 6);
+// (function addValue (a, b) {
+//   console.log("Addition is", a + b);
+// } ) ( 5, 6);
+
+
+
+
+
+// (function aValue(a, b) {
+//   console.log("Multiply", a * b);
+  
+// }) ( 123, 456);
+
+
+
+
