@@ -1,23 +1,27 @@
 //......... array.........
 
 
-// let car1 = "BMW";
-// let car2 = "volvo";
-// let car3 = "audi";
+let car1 = "BMW";
+let car2 = "volvo";
+let car3 = "audi";
 
 // ........1typeof array..............
-// let cars = ["BMW", "volvo", "audi"]
-// console.log(cars);
+let cars = ["BMW", "volvo", "audi"]
+console.log(cars);
 
 
-// // ........2typeof array..............
-// let myArr = new Array("BMW", "volvo", "audi");
-// console.log(myArr);
+// ........2typeof array..............
+let myArr = new Array("BMW", "volvo", "audi");
+console.log(myArr);
+
+
+let myArr1 = new Array("saab","BMW", "volvo", "audi")
+console.log(myArr1);
+
 
 
 // // ........3typeof array..............
 // let emptyArray = [];
-// emptyArray = 1;
 
 // emptyArray[0] = "abc";
 // emptyArray[1] = "def";
@@ -25,7 +29,10 @@
 // emptyArray[3] = "jkl";
 // emptyArray[4] = "nop";
 
-// console.log(emptyArray[3]);
+// console.log(emptyArray[2]);
+
+
+
 
 // let arr = ["one", "two", "three", "four", "five", "six"];
 // console.log(arr.length);
@@ -110,12 +117,12 @@
 // let fruit = fruits[3];
 
 
-let arr1 = ["one", "two", "three", "four", "five", "six"];
-let arr2 = ["seven", "eight", "nine", "ten", "eleven", "twelve"];
-let arr3 = ["13", "14", "15", "16"];
+// let arr1 = ["one", "two", "three", "four", "five", "six"];
+// let arr2 = ["seven", "eight", "nine", "ten", "eleven", "twelve"];
+// let arr3 = ["13", "14", "15", "16"];
 
-let res = arr1.concat(arr2, arr3);
-console.log(res);
+// let res = arr1.concat(arr2, arr3);
+// console.log(res);
 
 
 // let arr5 = ["one",1,null,undefined,true]
