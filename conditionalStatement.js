@@ -59,5 +59,5 @@
 
 //........Switch.......
 
-let t = Date()
-console.log();
+let today = Date()
+console.log(date());
