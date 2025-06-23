@@ -27,7 +27,7 @@
 
 
 // const a = "lasdjf";
-// a = 600;
+//  a = 600;                                           //Once assigned, you cannot reassign a new value to it.
 
 // console.log(a)
 
@@ -39,6 +39,7 @@
 // console.log(_pi, person, answer);                    // One line
 // console.log(`_pi =${_pi}, human = ${person}, ans = ${answer}`);               //Print with labels using template literals
 // console.log({_pi, person, answer});            //Print as an object
+
 
 
 // .......we can't do this .....
@@ -93,28 +94,44 @@
 // const cars = ["BMW", "Audi", "VW"];
 // cars[0] = "Toyota";
 // cars.push("Honda");
+// cars.pop();
 // console.log(cars);
 
-
+ 
 // let user = [];
 // user = [{fName : "Mohit",
 //         userAge : 25}];
 // user.push(user);
-// console.log(user);                                  //Pushin an object in array.
+// console.log(user);                                  //Pushing an object in array.
+
+
+// // Initial empty array
+// let users = [];
+
+// // Create a new object
+// let newUser = {
+//     fName: "Mohit",
+//     lName: "Shinde",
+//     age: 25,
+
+// };
+
+// // Push the object into the array
+// users.push(newUser);
+
+// // Log the array
+// console.log(users);
+
+
+
 
 
 // const car = { type:"Fiat", model:"500", color:"white"}
 // car.color = "red";                      // You can change a property:
 // car.owner = "John Snow";                // You can add a property:
+// car.company = "padmani";
 // console.log(car);
 
 
 
-
-
-
-
-
-
-
-
+  
