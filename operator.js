@@ -7,11 +7,11 @@
 // console.log(res);
 
 
-// let c = 50;
-// let d = 25;
+let c = 50;
+let d = 25;
 
-// let ress = c - d;
-// console.log(ress);
+let ress = c - d;
+console.log(ress);
 
 
 let e = 60;
