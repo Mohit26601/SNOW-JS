@@ -12,3 +12,9 @@ console.log(firstName,lastName);
 //  console.log(a); 
 
 
+
+const a = 500;
+// {
+//     a = 400;
+// }
+//  console.log(a); 
