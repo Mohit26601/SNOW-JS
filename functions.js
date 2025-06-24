@@ -2,7 +2,7 @@
 //     console.log("This is our functions");
     
 // }
-
+// addValue();
 
 
 // function myFunc(theObject) {
