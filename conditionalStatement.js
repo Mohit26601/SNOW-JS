@@ -59,5 +59,42 @@
 
 //........Switch.......
 
-let today = Date()
-console.log(date());
+// let today = Date()
+// console.log(date());
+
+// let age = 19;
+
+// if (age >=18){
+//     console.log("can vote");
+
+// }else if (age > 12){
+//     console.log("minor");
+
+    
+// }else {
+//     console.log("cant vote");
+    
+// }
+
+// //....ternary operatot....
+// // syntax  condition ? true : false; 
+
+
+// let age = 17;
+
+// age >= 18 ? console.log("age is greater than 18") : console.log("age is less than 18");
+
+// let val = 1;
+// switch (val) {
+//     case 0:
+//         console.log("abc");
+//         break;
+//     case 1:
+//         console.log("xyz");
+//     default:
+//         break;
+// }
+
+
+
+
