@@ -55,7 +55,7 @@
             
             
 // .......do while loop......
-// ........for eah loop......
+
 
 
 
@@ -70,19 +70,49 @@
 // }
 
 
-// // Looping with Object.keys() (Client Script or Script Include)
-var abc = {
-    name: 'Mohit',
-    role: 'Developer',
-    location: 'India'
-};
+// // // Looping with Object.keys() (Client Script or Script Include)
+// var abc = {
+//     name: 'Mohit',
+//     role: 'Developer',
+//     location: 'India'
+// };
 
 
-var mohit = Object.keys(abc);
-for (var i = 0; i < mohit.length; i++) {
-    console.log(mohit[i]+ ': ' + abc[mohit[i]]);
+// var mohit = Object.keys(abc);
+// for (var i = 0; i < mohit.length; i++) {
+//     console.log(mohit[i]+ ': ' + abc[mohit[i]]);
+// }
+
+
+// ........for eah loop......
+
+// let players = ["virat", "rohit", "dhoni", "shami", "iyer","rahul"];
+
+// players.forEach((patil) => {
+//     console.log(patil);
+// }
+
+// ......for off loop......
+let players = ["virat", "rohit", "dhoni", "shami", "iyer","rahul"];
+for (const player of players){
+    console.log(`The name of player is :${players}`);
+    
 }
 
 
+let lang = {
+    js : "javascript",
+    ts : "typesctipy",
+    jv : "java",
+    py : "python"
+}
+
+// for (const key is object){
+
+// }
 
 
+for (const key in lang ) {
+    console.log(`the actual name of ${key} is ${lang[key]}`);
+    
+}
